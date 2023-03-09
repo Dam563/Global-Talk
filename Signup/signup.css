@@ -1,0 +1,79 @@
+/* MOBILE RESPONSIVENESS */
+@media (max-width : 425px) {
+    .sign_up{
+        display: block !important;
+    }
+    img{
+        display: none;
+    }
+    .left_navigation{
+        width: 85% !important;
+        padding-top: 10px;
+    }
+}
+
+/* DESKTOP SCREEN */
+body{
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sign_up{
+    display: flex;
+    gap: 150px;
+    margin-bottom: 30px;
+    /* justify-content: space-between; */
+}
+.left_navigation{
+    width: 40%;   
+    height: 550px;
+    background-color: white;
+    /* padding-bottom: 20px; */
+    padding-left: 25px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+h2{
+    border-bottom: 2px solid blue;
+    width: 10%;
+}
+#button{
+    width: 90%;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.check{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    width: 110%;
+}
+.input{
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    margin-bottom: 20px;
+    border: 1px solid lightgrey;
+    border-width: thin;
+    background-color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+.account{
+    display: flex;
+    gap: 5px;
+    font-family: 'Poppins', sans-serif;  
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
